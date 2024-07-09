@@ -1,4 +1,4 @@
-public class Main { //This is the name of the recipe---- reminder -everything must go inside a class.
+public class Main { //This is the name of the recipe---- reminder -everything must go inside a class. Class serve more than a container
 
     //Ingredients would go here
 
