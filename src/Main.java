@@ -5,9 +5,12 @@ public class Main { //This is the name of the recipe---- reminder -everything mu
 
 
     public static void main(String[] args) { //This is the method, methods always have brackets (), the name 'main' method is required. It is a starting point
-
-        System.out.println("Hello world!");
         //Instructions for the method goes here
+        System.out.println("Chocolate Sauce!");// Using println
+        System.out.print("Cat\n");//Escape sequence using \n
+        System.out.print("Anubis");
+        System.out.print("rabbit");
+        System.out.print("Year of the Dragon");
     }
 
 
