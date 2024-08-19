@@ -8,12 +8,19 @@ public class Main { //This is the name of the recipe---- reminder -everything mu
         //Instructions for the method goes here
         System.out.println("Chocolate Sauce!");// Using println
         System.out.print("Cat\n");//Escape sequence using \n
-        System.out.print("Anubis");
-        System.out.print("rabbit");
-        System.out.print("Year of the Dragon");
+        System.out.print("Anubis\n");
+        System.out.print("rabbit\n");
+        System.out.println("Year of the Dragon");
+        System.out.println("The dog said \"woof\", then rolled around.");// this is how to escape the " " with a sentence
+        System.out.println("C:\\users\\bob");// showing how we find a file and the reason for using double backslash
+
+
+
     }
 
-
+// \n -new line
+// \t - tab
+// \b -backspace
 
 
 
