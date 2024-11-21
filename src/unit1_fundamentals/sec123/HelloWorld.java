@@ -1,6 +1,6 @@
 package unit1_fundamentals.sec123;
 
-public class HelloWorld { //This is the name of the recipe---- reminder -everything must go inside a class. Class serve more than a container
+public class HelloWorld { //This is the name of the recipe---- reminder -everything must go inside a class. Class serve as a container
 
     //Ingredients would go here
 
