@@ -12,6 +12,10 @@ public class VariableManipulationandtypes {
         System.out.println(I);
 
         double statueHeightInMetres = 14.27;//Good practice to use Camelcase
+        String name = "Tess"; // Good practice to describe the string
+        // variable naming can be anything like abc 123 ___ or $,
+        // letters, numbers and symbols, note that $ and _ are generally not used often, unless doing snakecase.
+        //also not name a variable starting with a number
 
         boleanandchar();
 
