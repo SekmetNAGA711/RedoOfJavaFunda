@@ -6,13 +6,13 @@ public class UserInput {
 
 
     public static void main(String[] args) {
-//      Scanner scanner = new Scanner(System.in);// scanner needs to be declared just like variables
-//
-//     String input1 = scanner.next(); //now I can use the scanner
-//
-//        System.out.println("\n" + input1);
-//
-//        AskQuestion();
+      Scanner scanner = new Scanner(System.in);// scanner needs to be declared just like variables
+
+     String input1 = scanner.next(); //now I can use the scanner
+
+        System.out.println("\n" + input1);
+
+        AskQuestion();
         formatSpec();
 
 
@@ -33,11 +33,19 @@ public class UserInput {
         double UserHeight = scanner2.nextDouble();
         System.out.println("You are " + UserHeight + " metres tall.");
 
+        double averageMaleHeightDifference = UserHeight - 1.75;
+        double averageFemaleHeightDifference = UserHeight - 1.62;
+        System.out.println("\n The difference between your height and the average is: ");
+        System.out.format("%.2fm if you are male.\n", averageMaleHeightDifference);
+        System.out.format("%.2fm if you are female", averageMaleHeightDifference);
+
+
+
     }
 
     public static void formatSpec() {
 
-        System.out.format("I have %d cats, %d birds and 1 %s", 7, 2, "panther");
+        System.out.format("\nI have %d cats, %d birds and 1 %s", 7, 2, "panther");
         //the d is called a format specifier, this replaces an integer, while %s replaces a string and %f replaces a float and double
         // %f rounds up to 6 decimal places, we can remove the decimal places by putting a .1 in front of f, which means round by 1 decimal place,
         // if .2 then 2 decimal places and so on
