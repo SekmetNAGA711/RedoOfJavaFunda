@@ -14,6 +14,7 @@ public class UserInput {
 
         AskQuestion();
         formatSpec();
+        multipleTokens();
 
 
     }
@@ -53,6 +54,16 @@ public class UserInput {
         System.out.println("\n");
         System.out.println( 4.5 - 2.7);
         System.out.format("\nwhen formatted: %.1f", 4.5 - 2.7);
+    }
+
+    public static void multipleTokens() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("\nwhat is your name?");
+        String name = scanner.nextLine(); //nextline will read the entire line and pick up all words "tokens"
+        System.out.println("Your name is " + name);
+
+
+
     }
 
 
