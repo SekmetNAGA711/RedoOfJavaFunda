@@ -25,15 +25,16 @@ Scanner scanner = new Scanner(System.in);
         int height = scanner.nextInt();
 
 //when the condition in the brackets is true the program in the curly brackets ie the body will run if not it will not
-if(height<130) {
+if(height >130 || height < 220) { // the || is the 'or' operator, only one expression has to be true for the block to run
+    //&& logic operator, both have to be true for the statement to run
 
-    System.out.println("Sorry, you are too short.");
-}
-else if(height > 220){//once an 'if' is apart add a () and {}//
-    System.out.println("Sorry, you are too tall");
-}
-else {
     System.out.println("Height accepted. Go ahead.");
+}
+//else if(height > 220){//once an 'if' is apart add a () and {}//
+//    System.out.println("Sorry, you ");
+//}
+else {
+    System.out.println("Sorry, you do not meet the heigh requirements");
 }
 //else if blocks must go in between, if statements must come first.
 
