@@ -21,7 +21,7 @@ public class ConditionalStatements {
 
 Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to SuperFast roller coaster");
-        System.out.print("Please enter your heigh in centimetres: ");
+        System.out.print("Please enter your height in centimetres: ");
         int height = scanner.nextInt();
 
 //when the condition in the brackets is true the program in the curly brackets ie the body will run if not it will not
@@ -34,18 +34,35 @@ if(height >130 || height < 220) { // the || is the 'or' operator, only one expre
 //    System.out.println("Sorry, you ");
 //}
 else {
-    System.out.println("Sorry, you do not meet the heigh requirements");
+    System.out.println("Sorry, you do not meet the height requirements");
 }
 //else if blocks must go in between, if statements must come first.
 
-
-
-
-
-
+        comparingStrings();
 
 
     }
+
+    public static void comparingStrings() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome to the VIP lounge");
+        System.out.println("Age: ");
+        int Age = scanner.nextInt();
+        System.out.println("Do you have a VIP pass? Enter yes or no:  ");
+        String vipPassReply = scanner.next();
+
+        if(Age >= 18 && vipPassReply.equals("yes")  || Age >= 70 ) {
+            System.out.println("Welcome to the club, go on in");
+        }
+        else {
+            System.out.println("Sorry, no can do");
+        }
+
+
+    }
+
+
 
 
 
