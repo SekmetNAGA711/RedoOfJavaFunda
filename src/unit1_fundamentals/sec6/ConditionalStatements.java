@@ -87,7 +87,8 @@ else {
 
     }
 
-    public static void switchStatement() {
+    public static void switchStatement() { /*The switch statement is like a specialized if statement.
+                                          It can be useful when you want to compare a single variable against a number of values./**/
 
 
 
