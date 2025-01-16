@@ -93,11 +93,13 @@ else {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
       if(num == 1) {
-
-
+          System.out.println("you entered one.");
+      } else if (num == 2) {
+          System.out.println("you entered two");
       }
-
-
+      else{
+          System.out.println("Invalid number");
+      }
 
 
     }
