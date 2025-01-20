@@ -98,7 +98,7 @@ else {
           System.out.println("you entered two");
       }
       else{
-          System.out.println("Invalid number");
+          System.out.println("Invalid number, please try again");
       }
 
 
