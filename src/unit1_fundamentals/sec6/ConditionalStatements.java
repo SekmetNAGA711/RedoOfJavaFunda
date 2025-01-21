@@ -88,21 +88,49 @@ else {
     }
 
     public static void switchStatement() { /*The switch statement is like a specialized 'if' statement.
-                                          It can be useful when you want to compare a single variable against a number of values./**/
+                                          It can be useful when you want to compare a single variable against a number of values.
+                                          The Switch statement is based on cases. Transform the example below to a switch statement
+                                          Note: break is needed so the code runs effectively.Putting a break at the end of default is also good.
+                                               if(num == 1) {
+                                               System.out.println("you entered one.");
+                                                }
+                                                else if (num == 2) {
+                                                System.out.println("you entered two");
+                                                }
+                                                else{System.out.println("Invalid number, please try again"); }
+                                                 }/**/
+
 
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
-      if(num == 1) {
-          System.out.println("you entered one.");
-      } else if (num == 2) {
-          System.out.println("you entered two");
-      }
-      else{
-          System.out.println("Invalid number, please try again");
-      }
+
+
+        switch (num) {
+            case 1 :
+                System.out.println("you entered 1");
+                break;
+            case 2:
+                System.out.println("you entered 2");
+                break;
+            default:
+                System.out.println("Invalid number.");
+                break;
+
+
+
+        }
+
+
+
+
+
 
 
     }
+
+
+
+
 
 
 
