@@ -15,7 +15,7 @@ public class Loops {
 
         int i = 0;
         while(5 < 10 ){
-            System.out.println("test");
+            System.out.println("test1");
             i = i +1;
 
         }
