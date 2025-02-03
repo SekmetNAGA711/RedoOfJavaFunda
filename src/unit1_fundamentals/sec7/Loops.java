@@ -43,6 +43,24 @@ public class Loops {
             System.out.println(i);
         }
 
+        /*Using Break and continue.let's say we want to stop the loop before it has fully completed.
+        Before this condition turns false, essentially. One thing we can do is write an if statement inside the loop. */
+        for(int i = 1; i<= 5; i++) {
+            if(i == 4){
+                break;
+            }
+            System.out.println(i);
+
+        }
+
+        for(int i = 1; i<= 5; i++) {
+            if(i == 3){
+                continue;
+            }
+            System.out.println(i);
+
+        }
+
 
 
 
