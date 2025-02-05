@@ -1,5 +1,7 @@
 package unit1_fundamentals.sec7;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Loops {
 
     public static void main(String[] args) {
@@ -62,6 +64,30 @@ public class Loops {
         }
 
 
+
+
+
+    }
+
+    public static void doWhileLoop() {
+        /* The Do while loop is the same as the while loop, except the condition is checked last rather than first. So all that happens is when
+         the program reaches the loop, it will run any code in the body. Then check the condition. If it is true, the program will go back up to
+         the top of the body and run it again. And it will keep repeating this process until the condition is false, at which point the program will continue.
+          Therefore, a 'do while' loop will always run at least once.*/
+
+//        int i = 0;
+//
+//        do {
+//            i++;
+//        } while (i< 5);
+//
+//
+//       while (i < 5) {
+//           i++;
+//       }
+
+   int num = ThreadLocalRandom.current().nextInt(1,7);
+        System.out.println("you rolled " + num + ".");
 
 
 
