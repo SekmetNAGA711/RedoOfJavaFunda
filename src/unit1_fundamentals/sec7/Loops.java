@@ -1,5 +1,6 @@
 package unit1_fundamentals.sec7;
 
+import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Loops {
@@ -82,14 +83,17 @@ public class Loops {
 //        } while (i< 5);
 //
 //
-//       while (i < 5) {
-//           i++;
-//       }
-
-   int num = ThreadLocalRandom.current().nextInt(1,7);
-        System.out.println("you rolled " + num + ".");
 
 
+        Scanner scanner = new Scanner(System.in);
+        String again = scanner.next();
+        do {
+            int num = ThreadLocalRandom.current().nextInt(1, 7);
+            System.out.println("you rolled " + num + ".");
+            System.out.println("Roll again? y/n: ");
+            again = scanner.next();
+
+        } while (again.equals("y"));
 
     }
 
