@@ -88,7 +88,7 @@ public class Loops {
         Scanner scanner = new Scanner(System.in);
         String again = scanner.next();
         do {
-            int num = ThreadLocalRandom.current().nextInt(1, 7);
+            int num = ThreadLocalRandom.current().nextInt(1, 8);
             System.out.println("you rolled " + num + ".");
             System.out.println("Roll again? y/n: ");
             again = scanner.next();
