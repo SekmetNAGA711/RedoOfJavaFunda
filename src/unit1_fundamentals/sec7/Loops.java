@@ -97,10 +97,21 @@ public class Loops {
 
     }
 
+    /*the modulo operator, which in Java is the percent sign. What this does is give you the remainder of a division.
+    For instance, take nine divided by two, which is 4.5. Or if we're working in remainders, it's four remainder one.So what nine modulo
+    two would give you is just the remainder -the one. Another example 23 modulo five? five can go into 20 4 times, the reminder is 3. So the answer
+    is 4 with a reminder of 3*/
+    public static void moduloOperator() {
+
+        System.out.println(23 % 4 == 3); //this would be false, checking true or false
+        System.out.println(15 % 2 == 0);//checking even or odd, evens will be true because evens gives 0 when dividing by 2
 
 
 
 
+
+
+    }
 
 
 
