@@ -42,7 +42,7 @@ public class Loops {
 
         //
 
-        for(int i = 22;  i > 10; i--){
+        for(int i = 22;  i > 13; i--){
             System.out.println(i);
         }
 
