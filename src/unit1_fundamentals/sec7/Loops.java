@@ -17,7 +17,7 @@ public class Loops {
          */
 
         int i = 0;
-        while(i < 10 ){
+        while(i < 13 ){
             System.out.println("test1");
             i = i +1; //this can be written like this i++, i +=1 for increase or i --
 
@@ -57,7 +57,7 @@ public class Loops {
         }
 
         for(int i = 1; i<= 5; i++) {
-            if(i == 3){
+            if(i == 4){
                 continue;
             }
             System.out.println(i);
