@@ -56,7 +56,7 @@ public class Loops {
 
         }
 
-        for(int i = 1; i<= 5; i++) {
+        for(int i = 1; i<= 8; i++) {
             if(i == 4){
                 continue;
             }
