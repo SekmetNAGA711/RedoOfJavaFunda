@@ -48,7 +48,7 @@ public class Loops {
 
         /*Using Break and continue.let's say we want to stop the loop before it has fully completed.
         Before this condition turns false, essentially. One thing we can do is write an if statement inside the loop. */
-        for(int i = 1; i<= 8; i++) {
+        for(int i = 1; i<= 13; i++) {
             if(i == 4){
                 break;
             }
