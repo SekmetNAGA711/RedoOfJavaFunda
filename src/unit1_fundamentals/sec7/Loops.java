@@ -36,7 +36,7 @@ public class Loops {
          * note: the variable is only available to the  for look  */
 
         for (int i = 0;  i <10; i++) {
-            System.out.println("Test4");
+            System.out.println("Test 8");
 
         }
 
