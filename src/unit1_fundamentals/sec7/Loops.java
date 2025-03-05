@@ -35,7 +35,7 @@ public class Loops {
          * In the for loop the parentheses () hold the variable, the condition and the incrementation.
          * note: the variable is only available to the  for look  */
 
-        for (int i = 0;  i <10; i++) {
+        for (int i = 0;  i <13; i++) {
             System.out.println("Test 22");
 
         }
