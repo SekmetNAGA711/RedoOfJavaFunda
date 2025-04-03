@@ -80,7 +80,7 @@ public class Loops {
 //
 //        do {
 //            i++;
-//        } while (i< 35);
+//        } while (i< 88);
 //
 //
 
