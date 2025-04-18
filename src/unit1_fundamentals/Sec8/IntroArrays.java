@@ -2,7 +2,7 @@ package unit1_fundamentals.Sec8;
 
 public class IntroArrays {
     public static void main(String[] args) {
-        int[] b = {75, 35, 350, 8, 4192}; // Each item in the array are called elements, each element has an index.
+        int[] b = {71, 35, 350, 8, 4192}; // Each item in the array are called elements, each element has an index.
         System.out.println(b[2]);// printing the element in index position 2, this will print 350
 
         //Making changes
