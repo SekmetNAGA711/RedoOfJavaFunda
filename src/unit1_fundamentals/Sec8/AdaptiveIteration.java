@@ -2,7 +2,7 @@ package unit1_fundamentals.Sec8;
 
 public class AdaptiveIteration {
     public static void main(String[] args) {//using length is a great way to be adaptive. No matter how many elements are in the array, we will print it
-        int[] nums = {4, 78, 88, 8, 17};
+        int[] nums = {4, 88, 88, 8, 17};
 
         for( int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);
