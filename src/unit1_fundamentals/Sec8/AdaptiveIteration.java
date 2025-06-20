@@ -29,7 +29,7 @@ public class AdaptiveIteration {
 
         }
         System.out.println("number of values greater than 80: " + count);
-        int mean = sumOfNums / nums.length; //mean is the sum of all the numbers divided by how many number there are
+        double mean = (double)sumOfNums / nums.length; //mean is the sum of all the numbers divided by how many number there are
         System.out.println("Mean is: " + mean);
 
 
