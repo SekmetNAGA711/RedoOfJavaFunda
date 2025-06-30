@@ -21,7 +21,7 @@ public class AdaptiveIteration {
         {
 
             //count numbers are less than 80
-            if(nums[i] < 80) {
+            if(nums[i] < 88) {
                 count++;
             }
             //Add up all numbers Note this code sum does not affect the 'if' code, there are just two code performing separate tasks
@@ -29,7 +29,7 @@ public class AdaptiveIteration {
 
         }
         System.out.println("number of values greater than 80: " + count);
-        double mean = (double)sumOfNums / nums.length; //mean is the sum of all the numbers divided by how many number there are
+        double mean = (double)sumOfNums / nums.length; //mean is the sum of all the numbers divided by how many number there are//using a double to retain the digits
         System.out.println("Mean is: " + mean);
 
 
